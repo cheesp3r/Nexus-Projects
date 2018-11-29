@@ -1,0 +1,145 @@
+.div_init {
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    padding: 25px;
+    padding-top: 1px;
+    margin-top: 200px;
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.div_listar {
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    padding: 25px;
+    padding-top: 1px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.div_cad_reserva{
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    padding: 25px;
+    padding-top: 1px;
+    margin-top: 80px;
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.btn_voltar {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 50px;
+    width: 280px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(233, 41, 99);
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.btn_voltar:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(233, 41, 99);
+    color: rgb(233, 41, 99);
+    background-color: #ffffff;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.btn2 {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    height: 50px;
+    width: 280px;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #20b2aa;
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn2:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #20b2aa;
+    color: #20b2aa;
+    background-color: #ffffff;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+body {font-family: 'Montserrat', sans-serif;}
+
+p {font-weight: 600;}
+
+input {
+    font-size: 15px;
+    text-decoration: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(168, 168, 168);
+    padding-inline-start: 10px;
+    padding-inline-end: 15px;
+}
+
+.search_categories{
+    font-size: 15px;
+    text-decoration: none;
+    outline: none;
+    padding: 10px 8px 10px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 255px;
+}
+
+.search_categories .select{
+    width: 120%;
+    background:url('../img/arrow.png') no-repeat;
+    background-position: 83% center;
+    text-decoration: none;
+    outline: none;
+
+}
+
+.search_categories .select select{
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 120%;
+    position: relative;
+    z-index: 10;
+    font-size: 1em;
+    text-decoration: none;
+    outline: none;
+}
+
+#btnex {
+    height: 25px;
+    width: 80px;
+}
+
+
